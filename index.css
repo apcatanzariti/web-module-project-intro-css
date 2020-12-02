@@ -54,31 +54,72 @@ table {
 }
 
 .container {
-	width: 100%;
-	text-align: center;
+	text-align:center;
 	border: 1px solid black;
 	overflow: hidden;
+	font-family: 'Roboto Mono', monospace;
+	letter-spacing: 1.5px;
+	font-size: 18px;
+	margin: 20px;
+}
+
+h1 {
+	font-family: 'Chelsea Market', cursive;
+	font-size: 50px;
 }
 
 .nav_bar {
 	border: 1px solid black;
 	padding: 40px;
-	display: inline-block;
+	display: block;
 }
 
 .plan_button {
 	text-decoration: none;
-	margin: 0 30px;
+	margin: 0 60px;
+	padding: 10px 20px;
+	border-radius: 10px;
+	display: inline-block;
+	width: 100px;
+	background-color: #FF764E;
+	color: white;
+	font-size: 16px;
 }
 
 .learn_button {
 	text-decoration: none;
-	margin: 0 30px;
+	margin: 0 60px;
+	padding: 10px 20px;
+	border-radius: 10px;
+	display: inline-block;
+	width: 130px;
+	background-color: #5Ed3EB;
+	color: white;
+	font-size: 16px;
 }
 
 .involved_button {
 	text-decoration: none;
-	margin: 0 30px;
+	margin: 0 60px;
+	padding: 10px 20px;
+	border-radius: 10px;
+	display: inline-block;
+	width: 100px;
+	background-color: #FFCD69;
+	color: white;
+	font-size: 16px;
+}
+
+#top_section {
+	border: 1px solid red;
+	overflow: hidden;
+}
+
+.para_2 {
+	border: 1px solid green;
+	width: 400px;
+	display: inline-block;
+	font-size: 16px;
 }
 
 .middle_image {
@@ -86,3 +127,35 @@ table {
 	width: 100px;
 }
 
+#logo {
+	border: 1px solid black;
+	height: 250px;
+	width: 250px;
+	float: left;
+	margin-left: 8%;
+}
+
+#logo img {
+	max-width: 100%;
+	max-height: 100%;
+	margin: auto;
+	display: block;
+	border-radius: 500px;
+}
+
+#intro_text {
+	width: 600px;
+	border: 1px solid blue;
+	padding: 35px 20px 0px 20px;
+	float: left;
+}
+
+#body_text {
+	border: solid 1px orange;
+	background-color: #DDB9A3;
+	color: white;
+	padding: 10px 20px;
+	font-size: 16px;
+	margin-top: 40px;
+
+}
