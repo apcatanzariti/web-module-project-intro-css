@@ -84,6 +84,10 @@ h1 {
 	font-size: 16px;
 }
 
+.plan_button:hover {
+	text-shadow: 2px 2px black;
+}
+
 .learn_button {
 	text-decoration: none;
 	margin: 0 60px;
@@ -96,6 +100,10 @@ h1 {
 	font-size: 16px;
 }
 
+.learn_button:hover {
+	text-shadow: 2px 2px black;
+}
+
 .involved_button {
 	text-decoration: none;
 	margin: 0 60px;
@@ -106,6 +114,10 @@ h1 {
 	background-color: #FFCD69;
 	color: white;
 	font-size: 16px;
+}
+
+.involved_button:hover {
+	text-shadow: 2px 2px black;
 }
 
 #top_section {
